@@ -81,6 +81,8 @@ window.onload = function()
         ctx.font = "bold 30px sans-serif";
         ctx.strokeText("Appuyer sur la touche Espace pour rejouer", centreX, centreY - 120);
         ctx.fillText("Appuyer sur la touche Espace pour rejouer", centreX, centreY - 120);
+        ctx.strokeText("Meilleur score: 57", centreX, centreY - -80);
+        ctx.fillText("Meilleur score: 57", centreX, centreY - -80);
 
         ctx.restore();
             
